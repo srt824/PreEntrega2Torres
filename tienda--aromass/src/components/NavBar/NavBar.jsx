@@ -6,10 +6,15 @@ const NavBar = () => {
   return (
     <header>
       <Link to="/">
-        <h1><em>Aromass Air Breeze</em></h1>
+        <img src="../img/logo_aromas_new.jpg" alt="Logo aromass" />
       </Link>
         <nav>
             <ul>
+                <li>
+                  <NavLink to="/">
+                    Home
+                  </NavLink>
+                </li>
                 <li>
                   <NavLink to="/categoria/1">
                     Aerosoles
@@ -30,12 +35,8 @@ const NavBar = () => {
                     Hogar y Auto
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to="/categoria/5">
-                    Dispensers
-                  </NavLink>
-                </li>
-                <li>Contacto</li>
+                
+                
             </ul>
         </nav>
 
