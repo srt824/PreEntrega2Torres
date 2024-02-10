@@ -1,8 +1,22 @@
-# React + Vite
+# Tienda Aromass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologías Utilizadas
+- React
+- Vite
+- React Router
+- Firebase 
+- SweetAlert2
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Ver un listado de productos disponibles
+- Agregar productos al carrito de compras
+- Ver el carrito de compras
+- Finalizar la simulación de venta recibiendo un Order Id.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Instalación
+1. Clonar el repositorio en tu máquina local.
+2. Abrir un terminal.
+3. Ejecutar el comando npm install para descargar los módulos y dependencias.
+4. Ejecutamos el comando npm run dev para visualizar el proyecto.
+### Licencia
+Este proyecto está licenciado bajo MIT.
