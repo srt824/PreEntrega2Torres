@@ -1,5 +1,6 @@
 # Tienda Aromass
 
+
 ## Tecnologías Utilizadas
 - React
 - Vite

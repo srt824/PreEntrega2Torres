@@ -1,8 +1,8 @@
 .contenedorItem{
-    font-size: 15px;
-    padding: 30px
+    text-align: center;
+    margin: 3rem;
 }
 
-.contenedorItem img {
+img {
     width: 250px;
 }

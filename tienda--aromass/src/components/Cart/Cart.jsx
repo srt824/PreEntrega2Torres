@@ -2,6 +2,7 @@ import CartItem from "../CartItem/CartItem";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../Context/CartContext";
 import { useContext } from "react";
+import './Cart.css'
 
 
 const Cart = () => {
@@ -20,9 +21,9 @@ const Cart = () => {
         {
             carrito.map(prod => <CartItem key={prod.id} {...prod}/>)
         }
-        <h3> Total:$ {total}</h3>
-        <button onClick={() => vaciarCarrito()}> Vaciar Carrito </button>
-        <Link to="/checkout"> Finalizar Compra </Link>
+        <h3> Total: $ {total}</h3>
+        <button className="miBtn" onClick={() => vaciarCarrito()}> Vaciar Carrito </button>
+        <Link to="/checkout" className="miBtn"> Finalizar Compra </Link>
 
     </div>
   )

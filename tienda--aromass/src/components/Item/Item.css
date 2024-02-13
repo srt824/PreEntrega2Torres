@@ -16,5 +16,17 @@
     width: 100px;
 }
 
+.miBtn {
+    background-color: darkviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    
 
+}
 
