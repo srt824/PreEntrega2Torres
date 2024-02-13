@@ -1,12 +1,14 @@
 # Tienda Aromass
-
+- Este proyecto surge de la necesidad de realizar un e-commerce para una pyme familiar llamada aromass air breeze, cuya actividad es la fabricación y distribución de aromatizantes de ambientes.
+  La empresa cuenta con un sitio web informativo (sin tienda virtual) con URL: https://www.aromassweb.com.ar
+  Se añade el e-commerce a dicho sitio web en breve...
 
 ## Tecnologías Utilizadas
 - React
 - Vite
 - React Router
 - Firebase 
-- SweetAlert2
+
 
 ## Funcionalidades
 - Ver un listado de productos disponibles
